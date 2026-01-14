@@ -27,3 +27,22 @@ Run the cell to launch the widget.
 Enter three of your favorite movies in the text fields.
 Click the Analyze button.
 Result: The AI will generate a description of your taste and 3 recommendations instantly!
+
+📋 Example
+Input:
+
+Movie 1: Inception
+Movie 2: The Matrix
+Movie 3: Interstellar
+Output:
+
+You seem to enjoy mind-bending science fiction that explores complex philosophical concepts and the nature of reality. You appreciate visually stunning films with high stakes, intellectual depth, and intricate plots that challenge your perception of time and space.
+
+Recommended Movies:
+
+Blade Runner 2049 – It offers a visually immersive and philosophically rich sci-fi experience similar to your favorites.
+Arrival – A cerebral sci-fi film that deals with complex themes of time and communication.
+Dark City – A stylistic precursor to The Matrix that explores similar themes of reality and memory.
+⚠️ Important Note
+Security: Never share your API key publicly or commit it to GitHub. Use environment variables for better security.
+Model Version: Ensure you have access to the model version specified in the code (models/gemini-1.5-pro or similar).
